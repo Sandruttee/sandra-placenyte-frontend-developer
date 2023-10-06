@@ -1,0 +1,234 @@
+:root {
+  --secondary-color: #282323;
+  --p-font-family: "Poppins", sans-serif;
+  --h-font-family: "Playfair Display", serif;
+  --secondary-text-color: #777a7c;
+}
+
+body {
+  font-family: var(--p-font-family);
+  font-weight: normal;
+}
+
+.hero h2,
+h3 {
+  font-family: var(--p-font-family);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-family: var(--h-font-family);
+  font-weight: bold;
+  font-size: 96px;
+  margin-top: 100px;
+}
+
+h3 {
+  color: var(--secondary-text-color);
+}
+.hero h3 {
+  margin-bottom: 80px;
+}
+
+h2 {
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+.me-image {
+  max-width: 350px;
+}
+
+.p-index {
+  background-color: var(--secondary-color);
+  color: white;
+  text-align: left;
+  line-height: 40px;
+}
+
+.p-projects {
+  background-color: var(--secondary-color);
+  color: white;
+  text-align: left;
+  line-height: normal;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 54px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .p-index {
+    text-align: center;
+  }
+  .p-color {
+    text-align: center;
+    line-height: normal;
+  }
+  .project-pic {
+    display: none;
+  }
+  .p-projects {
+    text-align: center;
+  }
+  .p-about {
+    text-align: center;
+  }
+  .p-about-description {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .contact-pre {
+    margin-top: 20px;
+  }
+  .me-image {
+    max-width: 100%;
+  }
+  .email {
+    font-size: 14px;
+  }
+}
+
+.hero-container {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+i {
+  font-size: 30px;
+}
+
+.hero-diff {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.certifications {
+  background-color: var(--secondary-color);
+  color: white;
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.certifications img {
+  margin-bottom: 20px;
+}
+
+.img-cer {
+  max-width: 200px;
+}
+
+.social-media {
+  letter-spacing: 10px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.p-social-media {
+  margin-top: 200px;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+i:hover {
+  scale: 1.1;
+}
+.certifications img:hover {
+  scale: 3;
+  cursor: context-menu;
+}
+
+.window-container {
+  margin: 0 auto;
+  margin-top: 100px;
+  max-width: 80%;
+}
+
+.launch-web {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: var(--secondary-color);
+  color: white;
+  border-color: black;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  transition: all 150ms ease-in-out;
+}
+.project-link {
+  text-decoration: none;
+  color: white;
+}
+
+.project-pic {
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.p-about-description {
+  font-family: var(--p-font-family);
+  font-size: 20px;
+}
+
+.email {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.contact {
+  display: block;
+  text-align: center;
+}
+.contact-pre {
+  font-size: 20px;
+  text-align: center;
+}
+
+.p-contact {
+  background-color: var(--secondary-color);
+  color: white;
+  text-align: left;
+  line-height: normal;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  padding: 30px;
+  margin-bottom: 120px;
+}
+.launch-web:hover {
+  background-color: white;
+  color: black;
+}
+
+.link-git {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-top: 80px;
+}
+
+.more-to-gain {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.more-certi {
+  margin-top: 80px;
+}
+
+.about-me-para {
+  text-align: center;
+  color: var(--secondary-text-color);
+}
