@@ -21,6 +21,7 @@ h1 {
 
 h3 {
   color: var(--secondary-text-color);
+  padding-bottom: 100px;
 }
 .hero h3 {
   margin-bottom: 80px;
@@ -44,35 +45,6 @@ h3 {
   line-height: normal;
   margin-bottom: 10px;
   margin-top: 50px;
-}
-
-@media (max-width: 1200px) {
-  h1 {
-    font-size: 54px;
-  }
-  h3 {
-    font-size: 16px;
-  }
-  .p-index {
-    text-align: center;
-  }
-  .p-color {
-    text-align: center;
-    line-height: normal;
-  }
-  .project-pic {
-    display: none;
-  }
-  .p-projects {
-    text-align: center;
-  }
-  .p-about {
-    text-align: center;
-  }
-  .p-about-description {
-    text-align: center;
-    margin-bottom: 10px;
-  }
 }
 
 .hero-container {
@@ -148,13 +120,11 @@ i:hover {
 
 .project-link {
   text-decoration: none;
-  color: white;
 }
 
 .project-pic {
   max-width: 400px;
   margin-bottom: 20px;
-
   border-radius: 4px;
   display: block;
   margin: 0 auto;
@@ -212,4 +182,39 @@ i:hover {
 .contact-text {
   text-align: center;
   margin-top: 100px;
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 54px;
+  }
+  h3 {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  .p-index {
+    text-align: center;
+  }
+  .p-color {
+    text-align: center;
+    line-height: normal;
+  }
+  .project-pic {
+    display: none;
+  }
+  .me-image {
+    display: none;
+  }
+  .p-projects {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .p-about {
+    text-align: center;
+  }
+  .p-about-description {
+    text-align: center;
+    margin-bottom: 10px;
+  }
 }
