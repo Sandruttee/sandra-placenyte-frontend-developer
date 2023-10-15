@@ -2,7 +2,7 @@
   --secondary-color: #282323;
   --p-font-family: "Poppins", sans-serif;
   --h-font-family: "Playfair Display", serif;
-  --secondary-text-color: black;
+  --secondary-text-color: #212529;
   --gradient: linear-gradient(-90deg, rgb(0, 0, 0) 0%, rgb(78, 75, 75) 35%);
 }
 body,
@@ -101,7 +101,7 @@ i:hover {
 }
 
 .launch-web {
-  background-color: #212529;
+  background-color: var(--secondary-text-color);
   border: none;
   color: white;
   padding: 15px 32px;
