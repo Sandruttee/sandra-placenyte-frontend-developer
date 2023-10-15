@@ -101,16 +101,17 @@ i:hover {
 }
 
 .launch-web {
-  padding: 10px;
-  border-radius: 6px;
-  color: black;
-  border-color: black;
-  cursor: pointer;
-  display: block;
+  background-color: #4d4b4b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
   margin: 0 auto;
   margin-top: 20px;
   transition: all 150ms ease-in-out;
-  background-color: white;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
