@@ -100,6 +100,45 @@
       >
         <button class="launch-web">sandra.placenyte@gmail.com</button></a
       >
+      <div class="contact-pre">
+        Or fill out the form and we will get in touch:
+        <section class="contact-section">
+          <form
+            id="contact-form"
+            action="https://formsubmit.co/sandra.placenyte@gmail.com"
+            method="POST"
+            class="contact-form"
+          >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit" class="launch-web">
+              Submit and get in touch
+            </button>
+          </form>
+
+          <div id="popupMessage" class="popup">
+            <span id="popupText">Thank you for your message!</span>
+          </div>
+        </section>
+      </div>
     </div>
 
     <p class="p-social-media">Connect with me on social media:</p>
@@ -121,5 +160,23 @@
         ><i class="fa-brands fa-github" style="color: #000000"></i
       ></a>
     </div>
+    <script>
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const popup = document.getElementById("popupMessage");
+          popup.style.display = "block";
+
+          setTimeout(function () {
+            popup.style.display = "none";
+          }, 3000);
+
+          setTimeout(function () {
+            event.target.submit();
+          }, 3000);
+        });
+    </script>
   </body>
 </html>
