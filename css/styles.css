@@ -102,10 +102,6 @@ i {
 i:hover {
   scale: 1.1;
 }
-.certifications img:hover {
-  scale: 3;
-  cursor: context-menu;
-}
 
 .launch-web {
   background-color: var(--secondary-text-color);
@@ -247,6 +243,26 @@ i:hover {
   margin-bottom: 50px;
   margin-top: 50px;
   align-items: center;
+}
+
+.project-links {
+  margin-right: 40px;
+  text-transform: uppercase;
+  font-family: var(--p-font-family);
+}
+.projects-links-spacing {
+  margin-bottom: 100px;
+}
+.project-a {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+
+.project-a:hover {
+  scale: 1.1;
+}
+.h3-diff {
+  padding-bottom: 10px;
 }
 
 @media (max-width: 1200px) {
