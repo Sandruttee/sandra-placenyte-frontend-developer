@@ -378,6 +378,10 @@ i:hover {
   .picture-grid-2 {
     grid-template-columns: 1fr;
   }
+  .special-width {
+    max-width: 60%;
+    max-height: 60%;
+  }
 }
 
 @keyframes fadeInOut {
