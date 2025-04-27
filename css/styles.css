@@ -252,6 +252,10 @@ i:hover {
 }
 .projects-links-spacing {
   margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 .project-a {
   text-decoration: none;
@@ -280,11 +284,9 @@ i:hover {
     text-align: center;
     line-height: normal;
   }
-  .project-pic {
-    display: none;
-  }
+
   .me-image {
-    display: none;
+    width: 80%;
   }
   .p-projects {
     text-align: center;
@@ -297,6 +299,18 @@ i:hover {
   .p-about-description {
     text-align: center;
     margin-bottom: 10px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-pic {
+    max-width: 100%;
+    height: auto;
+  }
+  .projects-links-spacing {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
