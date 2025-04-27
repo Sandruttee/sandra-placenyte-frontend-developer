@@ -134,6 +134,7 @@ i:hover {
   border-radius: 4px;
   display: block;
   margin: 0 auto;
+  height: auto;
 }
 .row {
   margin-top: 50px;
@@ -268,7 +269,23 @@ i:hover {
 .h3-diff {
   padding-bottom: 10px;
 }
+.picture-grid {
+  display: grid;
+  grid-template-columns: (1fr);
+  gap: 20px;
+  padding: 20px 0;
+  margin-left: 40px;
+  margin-right: 40px;
+}
 
+.grid-pic {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.special-pic {
+  max-width: 60%;
+}
 @media (max-width: 1200px) {
   h1 {
     font-size: 54px;
@@ -304,13 +321,12 @@ i:hover {
     grid-template-columns: 1fr;
   }
 
-  .project-pic {
-    max-width: 100%;
-    height: auto;
-  }
   .projects-links-spacing {
     flex-direction: column;
     align-items: center;
+  }
+  .picture-grid {
+    grid-template-columns: 1fr;
   }
 }
 
