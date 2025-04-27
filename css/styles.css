@@ -5,8 +5,11 @@
   --secondary-text-color: #212529;
   --gradient: linear-gradient(-90deg, rgb(0, 0, 0) 0%, rgb(78, 75, 75) 35%);
 }
+html,
 body {
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 body,
 h2,
@@ -63,6 +66,7 @@ h4 {
   max-width: 100%;
   margin: 0 auto;
   background: var(--gradient);
+  box-sizing: border-box;
 }
 
 i {
