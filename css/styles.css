@@ -319,34 +319,6 @@ i:hover {
   margin-top: 100px;
 }
 
-/*image hover*/
-.hover-image {
-  position: relative;
-  width: auto;
-  height: 400px;
-}
-
-.hover-image img {
-  width: 100%;
-  display: block;
-  transition: opacity 0.3s ease;
-}
-
-.hover-image .hover {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-}
-
-.hover-image:hover .hover {
-  opacity: 1;
-}
-
-.hover-image:hover .normal {
-  opacity: 0;
-}
-
 @media (max-width: 1200px) {
   h1 {
     font-size: 54px;
