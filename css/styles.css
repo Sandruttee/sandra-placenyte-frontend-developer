@@ -311,6 +311,12 @@ i:hover {
   border-radius: 8px;
   flex-wrap: wrap;
 }
+.grid-pic-3 {
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 8px;
+  flex-wrap: wrap;
+}
 .special-pic {
   max-width: 60%;
 }
@@ -363,10 +369,6 @@ i:hover {
   .picture-grid-2 {
     grid-template-columns: 1fr;
     flex-wrap: wrap;
-  }
-  .special-width {
-    max-width: 60%;
-    max-height: 60%;
   }
 
   .hero-container {
