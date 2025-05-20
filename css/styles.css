@@ -325,7 +325,7 @@ i:hover {
   margin-top: 100px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 54px;
   }
@@ -375,7 +375,15 @@ i:hover {
     padding-top: 20px;
   }
   .picture-grid-2 {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+  }
+
+  .grid-pic-2 {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
   }
 }
 
