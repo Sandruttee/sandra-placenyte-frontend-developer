@@ -307,9 +307,10 @@ i:hover {
 
 .grid-pic-2 {
   width: auto;
-  height: 400px;
+  height: 300px;
   border-radius: 8px;
   flex-wrap: wrap;
+  max-width: 100%;
 }
 .grid-pic-3 {
   max-width: 400px;
